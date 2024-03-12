@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+  }
+  
+  span {
+    margin: 3px;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 5px;
+    color: purple;
+    background-color: lightgray;
+    border: 1px solid pink;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 5px;
+    color: purple;
+    background-color: pink;
+    border: 1px solid lightgray;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: lightpink;
+  }
+  
+  button.disabled {
+    background-color: lightgray;
+  }
+  
+  button.disabled:hover {
+    background-color: pink;
+  }
+  
+  input:hover {
+    background-color: pink;
+  }

@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css"> 
+  <script src="script.js" defer></script>
+  <title>Framingham Risk Score</title>
+</head>
+<body>
+
+  <p>Bienvenido, a continuación podras calcular tu <strong>Riesgo Cardiovascular </strong> 
+  En un rango de 10 años. Considera los que fatores necesarios son: tu Sexo, Edad, tu colesteron HDL, tu Colesterol Total, tu Presión Arterial, si padeces Diabetes, y si Fumas <a href="https://www.ccs.ca/images/Guidelines/Tools_and_Calculators_En/FRS_eng_2017_fnl1.pdf">Find out how the risk score is calculated in detail.</a></p>
+
+  <div>
+    <span>Sexo</span>
+    <button class="disabled" id="man">Masculino</button>
+    <button class="disabled" id="woman">Femenino</button>
+  </div>
+  
+  <div>
+    <span>Edad</span>
+    <input type="number" id="inputAge" placeholder="Edad"></input>
+  </div>
+  
+  <div>
+    <span>Colesterol HDL (mmol/L)</span>
+    <input type="number" id="inputHDL" placeholder="Colesterol HDL"></input>
+  </div>
+  
+  <div>
+    <span>Colesterol Total (mmol/L)</span>
+    <input type="number" id="inputCholesterol" placeholder="Colesterol"></input>
+  </div>
+  
+  <div>
+    <span>Presion Arterial (mmHg)</span>
+    <input type="number" id="bloodPressureInput" placeholder="Presión Arterial"></input>
+  </div>
+  
+  <div>
+    <span>¿Padeces Diabetes?</span>
+    <button class="disabled" id="yesTreated">Si</button>
+    <button class="disabled" id="noTreated">No</button>
+  </div>
+  
+  <div>
+    <span>¿Fumas?</span>
+    <button class="disabled" id="yesSmoking">Si</button>
+    <button class="disabled" id="noSmoking">No</button>
+  </div>
+  
+  <div>
+    <button id="totalPointsButton">Obtener tu Resultado</button>
+    <span id="totalPointsSpan"></span>
+  </div>
+</body>
+</html>
+
+
