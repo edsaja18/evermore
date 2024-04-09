@@ -1,0 +1,50 @@
+
+  span {
+    margin: 3px;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 5px;
+    color: #000000;
+    background-color: lightgray;
+    border: 1px solid #666;
+    font-size: 16px;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-weight: small;
+    background-color: #117964;
+  
+  
+  }
+  
+  button:hover {
+    background-color: #117964;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  button.disabled {
+    background-color: lightgray;
+  }
+  
+  button.disabled:hover {
+    background-color: #117964;
+  }
+  
+  input:hover {
+    background-color: #0b856d;
+  }
+
+  #calcular{
+    text-align: center;
+
+  }
