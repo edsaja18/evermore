@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="sliderSintomasstyles.css">
+  <link rel="stylesheet" href="styles.css"> 
+  <script src="script.js" defer></script>
+  <title>Calcular tu Riesgo</title>
+</head>
+<body>
+  
+  <nav class="navbar">
+    <div class="navbar-container container">
+        <input type="checkbox" name="" id="">
+        <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+            <li><a href="index.html">Volver</a></li>
+            
+      
+        </ul>
+        <h1 class="logo">evermore</h1>
+    </div>
+</nav>
+
+
+ 
+ 
+  <div style="text-align: center;">
+    <br>
+    <h2>Calcula tu Riesgo Cardiovascular</h2>
+</div>
+
+  <section id="cont">
+    <div class="about-wrapper container">
+      <div class="about-text">
+        <div style="text-align: center;">
+
+       <p class="small">Bienvenido, a continuación podras calcular tu <strong>Riesgo Cardiovascular </strong> 
+        en un rango de 10 años.
+        <p class="small"> Considera los que factores necesarios son: tu Sexo, Edad, tu colesterol HDL, tu Colesterol Total, tu Presión Arterial, si padeces Diabetes, y si Fumas.
+          <p class="small"> Si aún tienes dudas de los Factores necesarios <a href="facts.html">Haz Click Aqui.</a>
+
+        </div>
+    </section>
+
+<section id="calcular">
+  <br>
+
+  <div>
+    <span>Sexo</span>
+    <button class="disabled" id="man">Masculino</button>
+    <button class="disabled" id="woman">Femenino</button>
+  </div>
+  
+  <div>
+    <span>Edad</span>
+    <input type="number" id="inputAge" placeholder="Edad"></input>
+  </div>
+  
+  <div>
+    <span>Colesterol HDL (mmol/L)</span>
+    <input type="number" id="inputHDL" placeholder="Colesterol HDL"></input>
+  </div>
+  
+  <div>
+    <span>Colesterol Total (mmol/L)</span>
+    <input type="number" id="inputCholesterol" placeholder="Colesterol"></input>
+  </div>
+  
+  <div>
+    <span>Presion Arterial (mmHg)</span>
+    <input type="number" id="bloodPressureInput" placeholder="Presión Arterial"></input>
+  </div>
+  
+  <div>
+    <span>¿Padeces Diabetes?</span>
+    <button class="disabled" id="yesTreated">Si</button>
+    <button class="disabled" id="noTreated">No</button>
+  </div>
+  
+  <div>
+    <span>¿Fumas?</span>
+    <button class="disabled" id="yesSmoking">Si</button>
+    <button class="disabled" id="noSmoking">No</button>
+  </div>
+  
+  <div>
+    <button id="totalPointsButton">Obtener tu Resultado</button>
+    <button id="clean">Limpiar</button>
+    <br>
+    <br>
+    <span id="totalPointsSpan"></span>
+  </div>
+</section>
+<br>
+
+
+<footer id="footer">
+  <h2>evermore </h2>
+</footer>
+</body>
+</html>
